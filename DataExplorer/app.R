@@ -440,7 +440,7 @@ ui <- bslib::page_sidebar(
                      # uses html-styled tags to stand out in the UI
                       pickerInput(
                         inputId = "visualise_column",
-                        label = HTML("<b>Plot builder Variable: (X-Axis):</b>"),
+                        label = HTML("<b>Plot Builder Variable: (X-Axis):</b>"),
                         choices = numeric_columns_for_plotting,
                         selected = numeric_columns_for_plotting[1],
                         multiple = FALSE,
