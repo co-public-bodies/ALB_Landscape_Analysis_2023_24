@@ -1,0 +1,38 @@
+/*-- scss:defaults --*/
+
+// -- Fonts --
+$font-family-sans-serif: 'Arial', serif; // Sets the main body font
+$headings-font-family:   'Arial', serif; // Sets the header fonts
+
+// -- Colors --
+$theme-COblue: #00344a;
+$theme-CORed:  #B53737;
+
+// -- Theme Settings --
+$body-color:   #000000;      // Text color
+$body-bg:      #FFFFFF;      // Background color
+$link-color:   $theme-COblue; // Hyperlink color
+$selection-bg: $theme-CORed;  // Highlight color
+
+// -- Typography --
+$h2-font-size: 1.6rem;
+$headings-font-weight: 500;
+
+
+/*-- scss:rules --*/
+
+::selection {
+  color: white;
+  background: $theme-CORed; 
+}
+
+::-moz-selection { /* For Firefox */
+  color: white;
+  background: $theme-CORed;
+}
+
+.tab-content {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 5px;
+}

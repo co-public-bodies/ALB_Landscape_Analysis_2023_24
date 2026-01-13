@@ -1,0 +1,123 @@
+/* --- Custom styles for the ALB Landscape Data Explorer --- */
+
+/* --- 1. Global & Layout Overrides --- */
+
+/* Link Styling */
+a {
+  color: #B53737;
+  text-decoration: none; 
+}
+
+a:hover { 
+  font-weight: bold; 
+}
+
+a:active { 
+  color: #B53737; 
+}
+
+/* Row Spacing */
+.row {
+  margin-bottom: 20px;
+}
+
+.row #input-row {
+  margin-bottom: 0px;
+}
+
+/* Spinner Container */
+.load-container {
+  height: 120px;
+}
+
+/* --- 2. Navigation Tabs (Pills) --- */
+
+/* Active Tab: Bold and Primary Blue */
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: var(--bs-primary) !important;
+  color: white !important;
+  font-weight: bold !important;
+}
+
+/* Inactive Tab Hover: Red background */
+.nav-pills .nav-link:not(.active):hover {
+  color: white; 
+  background-color: #B53737 !important;
+  font-weight: bold !important;
+}
+
+/* Main Content Area Layout
+   Turns the active tab into a flex container to manage vertical height 
+   and ensure the plot fills the screen.
+*/
+.tab-content > .tab-pane.active {
+  display: flex;
+  flex-direction: column;
+  /* Height calculation: 100vh (viewport) minus header/nav height.
+  */
+  height: calc(100vh - 210px);
+}
+
+
+/* --- 3. Component Styling --- */
+
+/* Generic Box Wrapper */
+.box {
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 3px;
+}
+
+/* Value Box Typography */
+.bslib-value-box .value-box-title {
+  font-weight: bold;
+}
+
+.bslib-value-box .value-box-value {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Plot Card Container 
+   Consolidated into one block. Made "invisible" (no border/shadow) 
+   but takes up maximum flex space.
+*/
+#plot_card_full_screen {
+  flex-grow: 1;          /* Grow to fill empty vertical space */
+  min-height: 500px;     /* Prevent squashing on small screens */
+  margin-left: 15px;
+  margin-right: 15px;
+  border: none !important;      /* Invisible border */
+  box-shadow: none !important;  /* Invisible shadow */
+}
+
+/* GT Table Output 
+   Adds margin to separate it from download buttons
+*/
+#table_with_data table {
+  margin: 20px;
+  width: calc(100% - 60px) !important;
+}
+
+/* Scrollable container for smaller screens */
+.scrollable-box {
+  overflow-x: auto;
+}
+
+.wide-table {
+  min-width: 700px;
+}
+
+
+/* --- 4. Text & Helper Classes --- */
+
+/* Variable Note Text (Caveats) */
+#variable_note_text b {
+  display: inline !important;
+}
+
+#variable_note_text p {
+  margin-bottom: 1em;
+}

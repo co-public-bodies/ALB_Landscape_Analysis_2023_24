@@ -1,0 +1,20 @@
+<p><b>How is the 2022/23 finance data adjusted for inflation?</b><br>
+Inflation adjustments are calculated using <a href='https://www.gov.uk/government/statistics/gdp-deflators-at-market-prices-and-money-gdp-march-2025-spring-statement-quarterly-national-accounts' target='_blank'>HM Treasury's GDP deflators at market prices, and money GDP March 2025 (Spring Statement & Quarterly National Accounts)</a></p>
+
+<p><b>RDEL - Resource Departmental Expenditure Limits</b><br>
+RDEL is the cost of running the organisation. Where possible, we break RDEL into 2 categories: RDEL Admin, which captures any administrative, back-office spending that the body uses to maintain its operations, and RDEL programme, which captures any spending made by the body on frontline service delivery. Typically, for ALBs which have RDEL spending, Administrative spending only accounts for around 10% of total RDEL, and the other 90% usually goes towards Programme - though this can vary by ALB. Departments and ALBs are not typically allowed to exceed their RDEL spending limit.</p>
+
+<p><b>CDEL - Capital Departmental Expenditure Limits</b><br>
+CDEL is expenditure that provides an investment for the body, such as buying property or upgrading infrastructure. While CDEL spending can also be split into Admin and Programme, to simplify the data collection process, we only captured the total CDEL spending for ALBs. Like RDEL, Departments and ALBs are not typically allowed to exceed their CDEL spending limit.</p>
+
+<p><b>AME - Annually Managed Expenditure</b><br>
+AME is demand-led expenditure that is typically hard to budget for in advance, such as pension or welfare claims. Whilst DEL spending is set years in advance by HM Treasury, AME spending is typically calculated on a year-by-year basis, and is often more able to account for inflation volatility. <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1141848/CBG_2023-24_final.pdf">HM Treasury typically discourage AME spending</a>, and recommend that: 'Generally, all areas of spending are in DEL unless the Chief Secretary of the Treasury has determined that they should be in AME'.</p>
+
+<p><b>Spending on Contingent Labour:</b><br>
+By Contingent Labour we refer to staff such as contractors, agency workers, and temps, who are employed on a temporary basis. They will often, but not always, be recruited to undertake work in a business as usual (BAU) environment. These contracts will generally pay on a time-based rate rather than delivery of an output or outcome, where the staff will be expected to complete specific tasks or services under a 'Statement of Work'.</p><p>Contingent Labour is distinct from consultancy as the organisation is paying for an individual to provide advice to fill a knowledge gap, or to suggest options for new business processes and/or technologies. Contingent Labour are typically external employees who are included on payroll, either directly or indirectly through an intermediary, such as an agency.</p>
+
+<p><b>Spending on Consultants:</b><br>
+By Consultancy spend we mean the cost of securing external specialist advice in a particular field. Consultancy is typically defined as the purchase of advice to fill a knowledge gap. This can include identification of options and recommendations, or assisting with implementing solutions, but should not be business as usual (BAU). Consultancy spend is also typically associated with a specific deliverable, such as access to advice or the implementation of new business processes or technologies. Consultants are not typically included in payroll.</p>
+
+<p><b>What does grants spending cover?</b><br>
+Grants spending only includes any money that was issued by the ALB in the form of grants-in-aid to other organisations. This does not capture money received by the ALB as a grant, such as from their sponsoring department, that then contributed towards running the ALB itself.</p>
