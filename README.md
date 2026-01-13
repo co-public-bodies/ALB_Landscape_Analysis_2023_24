@@ -30,7 +30,7 @@ The application is built using the [R Shiny](http://shiny.posit.co/) framework a
 
 **Data Handling:** [tidyverse](https://tidyverse.org/) for reactive data wrangling.
 
-#### 🚀 How to Run Locally
+#### How to Run Locally 🚀
 
 To run this application on your own machine:
 
