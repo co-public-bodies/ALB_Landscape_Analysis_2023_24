@@ -20,7 +20,7 @@ The [ALB Landscape Data Explorer](https://civil-service-analysis.shinyapps.io/AL
 
 **Transparency:** Caveats and notes are dynamically rendered based on user selection to ensure data is interpreted correctly.
 
-#### Technical Stack 🛠️ 
+#### Technical Stack 🛠️
 
 The application is built using the [R Shiny](http://shiny.posit.co/) framework and leverages modern UI/UX packages for a responsive and accessible tool for exploring UK Public Sector data:
 
@@ -30,7 +30,7 @@ The application is built using the [R Shiny](http://shiny.posit.co/) framework a
 
 **Data Handling:** [tidyverse](https://tidyverse.org/) for reactive data wrangling.
 
-#### 🚀 How to Run Locally 
+#### 🚀 How to Run Locally
 
 To run this application on your own machine:
 
@@ -41,3 +41,5 @@ To run this application on your own machine:
 -   Ensure all dependencies are installed (see the library() calls at the top of the app.R script).
 
 -   Run the application
+
+*Note: The app relies on helper functions stored in the `Assets/` directory. Ensure your working directory is set to the project root so these can be sourced correctly.*
