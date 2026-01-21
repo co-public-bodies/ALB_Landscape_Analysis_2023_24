@@ -490,6 +490,19 @@ ui <- bslib::page_sidebar(
     
 # UI: CSS -----------------------------------------------------------------
 
+# Meta data for improving visibility on Google searches
+tags$head(
+  # Title for browser tab and Google searches
+  tags$title("ALB Landscape Analysis Data Explorer | Cabinet Office"),
+  
+  # Text for description under URL on Google
+  tags$meta(name = "description", 
+            content = "Interactive explorer for the UK Government's Arm's Length Bodies (ALB) data in 2023/24. Filter by department, budget, spending, and staff counts."),
+  
+  # Keywords 
+  tags$meta(name = "keywords", content = "ALBs, Arms-Length Bodies, Public Bodies, Quangos, Cabinet Office, UK Government, Data, Shiny")
+),
+
   # Add CSS to make the dropdown float on top of everything else
   tags$head(# logo - places onto the right of the dashboard
     tags$script(
