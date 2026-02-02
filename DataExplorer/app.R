@@ -47,6 +47,7 @@
 # import packages
 suppressPackageStartupMessages({
   library(tidyverse)
+  library(janitor)
   library(gt)
   library(gtExtras)
   library(downloadthis)
